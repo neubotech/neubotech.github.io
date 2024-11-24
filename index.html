@@ -82,6 +82,9 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+<!-- ================================================================================== -->
+ <!-- Dynamic Visual Manipulation -->
+<!-- ================================================================================== -->
               <table
                 style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
@@ -95,7 +98,7 @@
               <table
                 style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
-
+<!-- ================================================================================== -->
 
                   <tr onmouseout="ar_teleop_stop()" onmouseover="ar_teleop_start()">
                     <td style="padding:20px;width:25%;vertical-align:middle">
@@ -104,7 +107,6 @@
                             <source src="videos/001_DVM_AR_Teleop.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                           </video></div>
-                        <!-- <img src='images/001_DVM_AR_Teleop.jpg' width="100%"> -->
                         <img src='images/001_DVM_AR_Teleop.jpg' width="280">
                       </div>
                       <script type="text/javascript">
@@ -143,6 +145,54 @@
                     </td>
                   </tr>
 
+
+<!-- ================================================================================== -->
+
+                  <tr onmouseout="gasket_stop()" onmouseover="gasket_start()">
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                      <div class="one">
+                        <div class="two" id='gasket_image'><video width=100% height=100% muted autoplay loop>
+                            <source src="videos/009_DVM_Gasket.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video></div>
+                        <img src='images/009_DVM_Gasket.jpg' width="280">
+                      </div>
+                      <script type="text/javascript">
+                        function gasket_start() {
+                          document.getElementById('gasket_image').style.opacity = "1";
+                        }
+
+                        function gasket_stop() {
+                          document.getElementById('gasket_image').style.opacity = "0";
+                        }
+                        gasket_stop()
+                      </script>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                      <a href="https://dvm_gasket.github.io/">
+                        <span class="papertitle">Compliant Gasket Insertion
+                        </span>
+                      </a>
+                      <br>
+                      <a href="https://www.linkedin.com/in/michael-wang-b2833167">Michael Wang</a>,
+                      <a href="https://www.nickfeffer.com">Nick Feffer</a>,
+                      <strong>Nan Tian</strong>
+
+                      <br>
+                      <em>Bosch CR President demo</em>, 2022 &nbsp
+                      <br>
+                      <em>Cloud and Fog Robotics</em>, ICRA 2024 Worhshop &nbsp
+                      <br>
+                      <a href="https://dvm_gasket.github.io/">project page</a>
+                      <p>
+                        Safely control a dynamic robot arm like you were playing a video game, in mixed reality with
+                        Hololens. Reactive, collision free motion planner (MPPI) hosted in the Cloud with GPU and
+                        Omniverse.
+                      </p>
+                    </td>
+                  </tr>
+
+<!-- ================================================================================== -->
                   <tr onmouseout="insertion_stop()" onmouseover="insertion_start()" bgcolor="#ffffd0">
                     <td style="padding:20px;width:25%;vertical-align:middle">
                       <div class="one">
@@ -187,14 +237,183 @@
                   </tr>
 
 
-                  <tr onmouseout="coffee_stop()" onmouseover="coffee_start()">
+<!-- ================================================================================== -->
+
+                  <tr onmouseout="FogServo19_stop()" onmouseover="FogServo19_start()">
                     <td style="padding:20px;width:25%;vertical-align:middle">
                       <div class="one">
-                        <div class="two" id='insertion_image'><video width=100% height=100% muted autoplay loop>
+                        <div class="two" id='FogServo19_image'><video width=100% height=100% muted autoplay loop>
+                            <source src="videos/006_DVM_FogServo19.mp4" type="video/mp4">
                             Your browser does not support the video tag.
                           </video></div>
+                        <img src='images/006_DVM_FogServo19.jpg' width="280">
+                      </div>
+                      <script type="text/javascript">
+                        function FogServo19_start() {
+                          document.getElementById('FogServo19_image').style.opacity = "1";
+                        }
+
+                        function FogServo19_stop() {
+                          document.getElementById('FogServo19_image').style.opacity = "0";
+                        }
+                        FogServo19_stop()
+                      </script>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                      <a href="https://dvm_FogServo19.github.io/">
+                        <span class="papertitle">Compliant FogServo19 Insertion
+                        </span>
+                      </a>
+                      <br>
+                      <a href="https://www.linkedin.com/in/michael-wang-b2833167">Michael Wang</a>,
+                      <a href="https://www.nickfeffer.com">Nick Feffer</a>,
+                      <strong>Nan Tian</strong>
+
+                      <br>
+                      <em>Bosch CR President demo</em>, 2022 &nbsp
+                      <br>
+                      <em>Cloud and Fog Robotics</em>, ICRA 2024 Worhshop &nbsp
+                      <br>
+                      <a href="https://dvm_FogServo19.github.io/">project page</a>
+                      <p>
+                        Safely control a dynamic robot arm like you were playing a video game, in mixed reality with
+                        Hololens. Reactive, collision free motion planner (MPPI) hosted in the Cloud with GPU and
+                        Omniverse.
+                      </p>
+                    </td>
+                  </tr>
+
+<!-- ================================================================================== -->
+ <!-- Graspings & Pick-n-Place -->
+<!-- ================================================================================== -->
+<table
+style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+<tbody>
+  <tr>
+    <td style="padding:20px;width:100%;vertical-align:middle">
+      <h2> Graspings & Pick-n-Place </h2>
+    </td>
+  </tr>
+</tbody>
+</table>
+<table
+style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+<tbody>
+
+<!-- ================================================================================== -->
+                  <tr onmouseout="hemming_stop()" onmouseover="hemming_start()" >
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                      <div class="one">
+                        <div class="two" id='hemming_image'><video width=100% height=100% muted autoplay loop>
+                            <source src="videos/008_GPP_ARM_BH.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video></div>
+                        <!-- <img src='images/001_DVM_AR_Teleop.jpg' width="100%"> -->
+                        <img src='images/008_GPP_ARM_BH.jpg' width="280">
+                      </div>
+                      <script type="text/javascript">
+                        function hemming_start() {
+                          document.getElementById('hemming_image').style.opacity = "1";
+                        }
+
+                        function hemming_stop() {
+                          document.getElementById('hemming_image').style.opacity = "0";
+                        }
+                        hemming_stop()
+                      </script>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                      <a href="https://dvm_hemming.github.io/">
+                        <span class="papertitle">Dynamic Visual Servo for Robust Prism hemming</span>
+                      </a>
+                      <br>
+                      <strong>Nan Tian</strong>
+
+                      <!-- <br> -->
+                      <br>
+                      <em>Nikon CTO Presentation & Demo 2020 <br> <a
+                          href="https://www.linkedin.com/company/nikon-research-corporation-of-america">Nikon Research
+                          Corporation of America</a></em>
+                      <br>
+                      <a href="https://youtu.be/tg-abAgBrIk">Full Video</a>
+                      <p>
+                        Position based visual servoing to perform prism hemming. Controlling the robot arm based on
+                        relative 3D pose between objects (instead of relative to the arm end-effector), the hemmings
+                        are robust and precise even when either object slips or moves at any time.
+                      </p>
+                    </td>
+                  </tr>
+
+
+
+
+<!-- ================================================================================== -->
+                  <tr onmouseout="kitting_stop()" onmouseover="kitting_start()">
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                      <div class="one">
+                        <div class="two" id='kitting_image'><video width=100% height=100% muted autoplay loop>
+                            <source src="videos/007_GPP_Kitting.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video></div>
+                        <!-- <img src='images/001_DVM_AR_Teleop.jpg' width="100%"> -->
+                        <img src='images/007_GPP_Kitting.jpg' width="280">
+                      </div>
+                      <script type="text/javascript">
+                        function kitting_start() {
+                          document.getElementById('kitting_image').style.opacity = "1";
+                        }
+
+                        function kitting_stop() {
+                          document.getElementById('kitting_image').style.opacity = "0";
+                        }
+                        kitting_stop()
+                      </script>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                      <a href="https://dvm_kitting.github.io/">
+                        <span class="papertitle">Dynamic Visual Servo for Robust Prism kitting</span>
+                      </a>
+                      <br>
+                      <strong>Nan Tian</strong>
+
+                      <!-- <br> -->
+                      <br>
+                      <em>Nikon CTO Presentation & Demo 2020 <br> <a
+                          href="https://www.linkedin.com/company/nikon-research-corporation-of-america">Nikon Research
+                          Corporation of America</a></em>
+                      <br>
+                      <a href="https://youtu.be/tg-abAgBrIk">Full Video</a>
+                      <p>
+                        Position based visual servoing to perform prism kitting. Controlling the robot arm based on
+                        relative 3D pose between objects (instead of relative to the arm end-effector), the kittings
+                        are robust and precise even when either object slips or moves at any time.
+                      </p>
+                    </td>
+                  </tr>
+
+
+
+<!-- ================================================================================== -->
+                  <tr onmouseout="coffee_stop()" onmouseover="coffee_start()" bgcolor="#ffffd0">
+                    <td style="padding:20px;width:25%;vertical-align:middle">
+                      <div class="one">
+                        <div class="two" id='coffee_image'><video width=100% height=100% muted autoplay loop>
+                            <source src="videos/003_DVM_Humanoid_Coffee.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video></div>
+                        <!-- <img src='images/001_DVM_AR_Teleop.jpg' width="100%"> -->
                         <img src='images/003_DVM_Humanoid_Coffee.png' width="280">
                       </div>
+                      <script type="text/javascript">
+                        function coffee_start() {
+                          document.getElementById('coffee_image').style.opacity = "1";
+                        }
+
+                        function coffee_stop() {
+                          document.getElementById('coffee_image').style.opacity = "0";
+                        }
+                        coffee_stop()
+                      </script>
                     </td>
                     <td style="padding:20px;width:75%;vertical-align:middle">
                       <a href="https://dvm_insertion.github.io/">
@@ -219,12 +438,15 @@
                 </tbody>
               </table>
 
+<!-- ================================================================================== -->
+ <!-- Cloud Robotics -->
+<!-- ================================================================================== -->
               <table
                 style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
                   <tr>
                     <td style="padding:20px;width:100%;vertical-align:middle">
-                      <h2>Graspings and Pick-n-Place</h2>
+                      <h2>Cloud Robotics for Physical Human Robot Interactions</h2>
                     </td>
                   </tr>
                 </tbody>
@@ -235,52 +457,13 @@
                 <tbody>
 
 
-                  <tr onmouseout="BH_stop()" onmouseover="BH_start()" bgcolor="#ffffd0">
-                    <td style="padding:20px;width:25%;vertical-align:middle">
-                      <div class="one">
-                        <div class="two" id='BH_image'><video width=100% height=100% muted autoplay loop>
-                            <source src="videos/008_GPP_ARM_BH.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                          </video></div>
-                        <!-- <img src='images/001_DVM_AR_Teleop.jpg' width="100%"> -->
-                        <img src='images/008_GPP_ARM_BH.jpg' width="280">
-                      </div>
-                      <script type="text/javascript">
-                        function BH_start() {
-                          document.getElementById('BH_image').style.opacity = "1";
-                        }
 
-                        function BH_stop() {
-                          document.getElementById('BH_image').style.opacity = "0";
-                        }
-                        BH_stop()
-                      </script>
-                    </td>
-                    <td style="padding:20px;width:75%;vertical-align:middle">
-                      <a href="https://dvm_insertion.github.io/">
-                        <span class="papertitle">Dynamic Visual Servo for Robust Prism Insertion
-                        </span>
-                      </a>
-                      <br>
-                      <strong>Nan Tian</strong>
-
-                      <!-- <br> -->
-                      <br>
-                      <em>Nikon CTO Presentation & Demo, <a
-                          href="https://www.linkedin.com/company/nikon-research-corporation-of-america">Nikon Research
-                          Corporation of America</a></em>
-                      <br>
-                      <a href="https://youtu.be/tg-abAgBrIk">Full Video</a>
-                      <p>
-                        Position based visual servoing to perform prism insertion. Controlling the robot arm based on
-                        relative 3D pose between objects (instead of relative to the arm end-effector), the insertions
-                        are robust and precise even when either object slips or moves at any time.
-                      </p>
-                    </td>
-                  </tr>
                 </tbody>
               </table>
 
+<!-- ================================================================================== -->
+ <!-- Miscellanea -->
+<!-- ================================================================================== -->
               <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
                 <tbody>
                   <tr>
