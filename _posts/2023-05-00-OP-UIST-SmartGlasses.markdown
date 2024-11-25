@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Dynamics Based Hand Tracking"
-date:   2013-03-01 22:21:59 +00:00
-image: /images/001_DVM_AR_Teleop.jpg
-animate: /videos/001_DVM_AR_Teleop.mp4
-categories: research
-author: "Leo Keselman"
+date:   2023-05-01 22:21:59 +00:00
+image: /images/004_AR_Glasses23.jpg
+animate: /videos/004_AR_Glasses23.mp4
+categories: OP
+author: "Nan Tian"
 venue: "Graphics Interfaces"
 authors: "Stan Melax, <strong>Leonid Keselman</strong>, Sterling Orsten"
 subtitle: "Dynamics based 3D skeletal hand tracking"
