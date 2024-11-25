@@ -1,22 +1,22 @@
 ---
 layout: post
-title:  "Dynamics Based Hand Tracking"
+title:  "Intuitive Robot Arm Teleoperation in Mixed Reality via Cloud Robotics"
 date:   2022-08-01 22:21:59 +00:00
 image: /images/001_DM_AR_Teleop.jpg
 animate: /videos/001_DM_AR_Teleop.mp4
 categories: DM
 author: "Nan Tian"
-venue: "Graphics Interfaces"
-authors: "Stan Melax, <strong>Leonid Keselman</strong>, Sterling Orsten"
-subtitle: "Dynamics based 3D skeletal hand tracking"
-arxiv: https://arxiv.org/abs/1705.07640
-code: https://github.com/IntelRealSense/hand_tracking_samples
+venue: Bosch Corporate Research President Demo
+authors: "<strong>Nan Tian</strong>, Michael Wang, Nick Feffer,  Liu Ren"
+video: https://youtu.be/TzWp5naDAsE
+slides: https://youtu.be/TzWp5naDAsE
 ---
-
-Using a physics engine (e.g. a dynamics solver) to track 3D articulated objects in real-time. 
+Safely control a dynamic robot arm, like you were playing a video game with the mixed reality digital double.  Reactive collision free motion planning were hosted from the Cloud. This work was also part of my talk at [ICRA 2024 Cloud Robotics Workshop, Yokohama, Japan](https://sites.google.com/view/icra-24-cloud-robotics/home).
 
 <blockquote>
   <p>
-    This research explores a new approach to tracking hands, or any articulated model, by using an augmented rigid body simulation. This allows us to phrase 3D object tracking as a linear complementarity problem with a well-defined solution. Based on a depth sensor&#8217;s samples, the system generates constraints that limit motion orthogonal to the rigid body model&#8217;s surface. These constraints, along with prior motion, collision/contact constraints, and joint mechanics, are resolved with a projected Gauss-Seidel solver. Due to camera noise properties and attachment errors, the numerous surface constraints are impulse capped to avoid overpowering mechanical constraints. To improve tracking accuracy, multiple simulations are spawned at each frame and fed a variety of heuristics, constraints and poses. A 3D error metric selects the best-fit simulation, helping the system handle challenging hand motions.
+Ever want to control a dynamic robot arm with just your hand without having to worry about it colliding with anything?  In this project, we leverage a reactive planner (MPPI) to perform dynamic collision free target reaching via a mixed reality teleopator interface (Hololens).  The operator can directly use their hand to guide the robot end-effector motion without having to worry about the robot arm's local surroundings.  Just like playing a game.
+
+The best part is that the reactive motion controller and the teleoperation interface is hosted in the Cloud (Omniverse), and are connected to the robot via FogROS2.  This way, you can control the robot from anywhwere in the world, emersively, just like playing a video game, but on real robot.
   </p>
 </blockquote>

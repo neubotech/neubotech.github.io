@@ -92,7 +92,7 @@
             </p> -->
               <p style="text-align:center">
                 <a href="mailto:neubotech@gmail.com">Email</a> &nbsp;/&nbsp;
-                <a href="data/NanTian_CV.pdf">CV</a> &nbsp;/&nbsp;
+                <a href="pdfs/NanTian_CV.pdf">CV</a> &nbsp;/&nbsp;
                 <!-- <a href="data/NanTian_Bio.txt">Bio</a> &nbsp;/&nbsp; -->
                 <a href="https://scholar.google.com/citations?hl=en&user=QhfCZK3tCeYC">Scholar</a> &nbsp;/&nbsp;
                 <a href="https://www.linkedin.com/in/neubotech">LinkedIn</a> &nbsp;/&nbsp;
@@ -113,7 +113,7 @@
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research Interests</h2>
               <p>
-                Agile robotics control for pHRI, 2D/3D robotics vision (interactive), VR/AR Teleoperation, Cloud Robotics (AI with reliability), data efficient imitation learning, and more recently, interpretable end2end robotics learning (coming soon).  
+                Agile robotics control for dynamic pHRI, Interactive 2D/3D robotics vision, VR/AR Teleoperation, Cloud Robotics (AI with reliability), data efficient imitation learning, and more recently, interpretable end2end robotics learning (coming soon).  
               </p>
               <p>
                 I find <span class="highlight"> highlighted works</span> innovative at the time of their completion.
@@ -186,6 +186,9 @@
               <br>
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
+              {% if post.pdf %}
+              <a href="{{post.pdf}}">pdf</a> /
+              {% endif %}
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">arxiv</a> /
               {% endif %}
@@ -207,6 +210,9 @@
               {% if post.youtube %}
               <a href="{{post.youtube}}">youtube</a> /
               {% endif %}
+    {% if post.media %}
+    <a href="{{post.media}}">media coverage</a> /
+    {% endif %}
               <p></p>
               {{ post.excerpt }}
             </td>
@@ -281,6 +287,9 @@ style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-
     <br>
     <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
     <br>
+              {% if post.pdf %}
+              <a href="{{post.pdf}}">pdf</a> /
+              {% endif %}
     {% if post.arxiv %}
     <a href="{{post.arxiv}}">arxiv</a> /
     {% endif %}
@@ -301,6 +310,9 @@ style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-
     {% endif %}
     {% if post.youtube %}
     <a href="{{post.youtube}}">youtube</a> /
+    {% endif %}
+    {% if post.media %}
+    <a href="{{post.media}}">media coverage</a> /
     {% endif %}
     <p></p>
     {{ post.excerpt }}
@@ -377,6 +389,9 @@ style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-
     <br>
     <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
     <br>
+              {% if post.pdf %}
+              <a href="{{post.pdf}}">pdf</a> /
+              {% endif %}
     {% if post.arxiv %}
     <a href="{{post.arxiv}}">arxiv</a> /
     {% endif %}
@@ -397,6 +412,9 @@ style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-
     {% endif %}
     {% if post.youtube %}
     <a href="{{post.youtube}}">youtube</a> /
+    {% endif %}
+    {% if post.media %}
+    <a href="{{post.media}}">media coverage</a> /
     {% endif %}
     <p></p>
     {{ post.excerpt }}
@@ -472,6 +490,9 @@ style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-
     <br>
     <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
     <br>
+              {% if post.pdf %}
+              <a href="{{post.pdf}}">pdf</a> /
+              {% endif %}
     {% if post.arxiv %}
     <a href="{{post.arxiv}}">arxiv</a> /
     {% endif %}
@@ -492,6 +513,9 @@ style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-
     {% endif %}
     {% if post.youtube %}
     <a href="{{post.youtube}}">youtube</a> /
+    {% endif %}
+    {% if post.media %}
+    <a href="{{post.media}}">media coverage</a> /
     {% endif %}
     <p></p>
     {{ post.excerpt }}
@@ -570,6 +594,9 @@ style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-
     <br>
     <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
     <br>
+              {% if post.pdf %}
+              <a href="{{post.pdf}}">pdf</a> /
+              {% endif %}
     {% if post.arxiv %}
     <a href="{{post.arxiv}}">arxiv</a> /
     {% endif %}
@@ -590,6 +617,9 @@ style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-
     {% endif %}
     {% if post.youtube %}
     <a href="{{post.youtube}}">youtube</a> /
+    {% endif %}
+    {% if post.media %}
+    <a href="{{post.media}}">media coverage</a> /
     {% endif %}
     <p></p>
     {{ post.excerpt }}
