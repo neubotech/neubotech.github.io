@@ -2,7 +2,7 @@
 layout: post
 title:  "Dynamics Based Hand Tracking"
 date:   2019-05-01 22:21:59 +00:00
-highlight: true
+# highlight: true
 image: /images/006_DM_FogServo19.jpg
 animate: /videos/006_DM_FogServo19.mp4
 categories: DM
