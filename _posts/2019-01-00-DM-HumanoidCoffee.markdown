@@ -2,7 +2,7 @@
 layout: post
 title:  "Dynamics Based Hand Tracking"
 date:   2019-01-01 22:21:59 +00:00
-# highlight: true
+highlight: true
 image: /images/003_GP_Humanoid_Coffee.png
 animate: /videos/003_GP_Humanoid_Coffee.mp4
 categories: GP
