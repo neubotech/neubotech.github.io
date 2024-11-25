@@ -2,7 +2,8 @@
 layout: post
 title:  "Dynamics Based Hand Tracking"
 date:   2013-03-01 22:21:59 +00:00
-image: /images/hand.png
+image: /images/001_DVM_AR_Teleop.jpg
+animate: /videos/001_DVM_AR_Teleop.mp4
 categories: research
 author: "Leo Keselman"
 venue: "Graphics Interfaces"

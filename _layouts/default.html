@@ -111,9 +111,34 @@
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
+            {% if post.animate %}
+            {% assign animate_filename = animate_path | split: '/' | last %}
+            {% assign basename = animate_filename | split: '.' | first %}
+            <tr onmouseout="{{basename}}_stop()" onmouseover="{{basename}}_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='{{basename}}_image'><video width=100% height=100% muted autoplay loop>
+                      <source src="{{post.animate}}" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video></div>
+                  <img src="{{post.image}}" width="280">
+                </div>
+                <script type="text/javascript">
+                  window['{{ basename }}_start'] = function() {
+                    document.getElementById('{{basename}}_image').style.opacity = "1";
+                  }
+
+                  window['{{ basename }}_stop'] = function() {
+                    document.getElementById('{{basename}}_image').style.opacity = "0";
+                  }
+                  {{basename}}_stop()
+                </script>
+              </td>
+            {% else %}
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
+            {% endif %}
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>

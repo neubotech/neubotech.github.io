@@ -2,7 +2,7 @@
 layout: post
 title:  "CES 2012: Broken Glass Demo"
 date:   2012-01-10 22:21:59 +00:00
-image: /images/broken-glass.jpg
+image: /images/001_DVM_AR_Teleop.jpg
 categories: Intel
 author: "Leo Keselman"
 subtitle: "Hand Tracking Demo"
