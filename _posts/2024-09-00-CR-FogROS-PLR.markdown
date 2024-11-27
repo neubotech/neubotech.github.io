@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dynamics Based Hand Tracking"
-date:   2023-05-01 22:21:59 +00:00
+date:   2024-09-01 22:21:59 +00:00
 image: /images/005_CR_PLR24.jpg
 animate: /videos/005_CR_PLR24.mp4
 categories: CR

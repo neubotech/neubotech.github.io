@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dynamics Based Hand Tracking"
-date:   2019-01-01 22:21:59 +00:00
+date:   2024-03-01 22:21:59 +00:00
 highlight: true
 image: /images/012_CR_IROS_FogROS_FT.png
 # animate: /videos/011_CR_ICRA_Chess16.mp4
