@@ -17,7 +17,7 @@ media: https://www.youtube.com/watch?v=pj8Wz5ruWeU
 <span style="color:red;">(Lead responsible PI for this ARM project)</span>
 </p>
 Worked with academic and industrial partners to achieve reliable pick-ups and loadings of T-shirts to the bottom hemming machine. 
-<strong>Reliable single layer garment pickups using Coanda Gripper (Patent).</strong>
+<strong>Reliable single layer garment pickups using Coanda Gripper ([Patent](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2024035432)).</strong>
 
 <blockquote>
   <p>

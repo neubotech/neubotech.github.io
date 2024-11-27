@@ -9,7 +9,7 @@ author: "Nan Tian"
 venue: Bosch Corporate Research President Demo
 authors: "<strong>Nan Tian</strong>, Michael Wang, Nick Feffer,  Liu Ren"
 video: https://youtu.be/TzWp5naDAsE
-slides: https://youtu.be/TzWp5naDAsE
+slides: https://youtu.be/-SRtkyRvFXY
 ---
 Safely control a dynamic robot arm, like you were playing a video game with the mixed reality digital double.  Reactive collision free motion planning were hosted from the Cloud. This work was also part of my talk at [ICRA 2024 Cloud Robotics Workshop, Yokohama, Japan](https://sites.google.com/view/icra-24-cloud-robotics/home).
 
