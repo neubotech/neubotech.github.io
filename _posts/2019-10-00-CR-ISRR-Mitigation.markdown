@@ -2,7 +2,7 @@
 layout: post
 title:  "Motion Segmentation and Synthesis for Latency Mitigation in a Cloud Robotic Tele-Operation System"
 date:   2019-10-01 22:21:59 +00:00
-# highlight: true
+highlight: true
 image: /images/014_CR_ISRR_Mitigation19.png
 animate: /videos/014_CR_ISRR_Mitigation19.mp4
 categories: CR
