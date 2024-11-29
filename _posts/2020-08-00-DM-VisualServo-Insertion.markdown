@@ -10,7 +10,7 @@ author: "Nan Tian"
 venue: "Nikon CTO Presentation"
 authors: "<strong>Nan Tian</strong>, Satoshi Hasegawa, Ping-Wei Chang, Bausan Yuan"
 # subtitle: "Dynamics based 3D skeletal hand tracking"
-arxiv: https://arxiv.org/abs/1705.07640
+video: https://youtu.be/tg-abAgBrIk
 # code: https://github.com/IntelRealSense/hand_tracking_samples
 media: https://www.robot-digest.com/newarticle/?id=1618191821-158917
 ---

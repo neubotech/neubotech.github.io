@@ -4,6 +4,7 @@ title:  "Dynamics Based Hand Tracking"
 date:   2023-05-01 22:21:59 +00:00
 image: /images/004_AR_Glasses23.jpg
 animate: /videos/004_AR_Glasses23.mp4
+highlight: yes
 categories: OP
 author: "Nan Tian"
 venue: "Graphics Interfaces"
