@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  "Dynamics Based Hand Tracking"
+title:  "A Fog Robotic System for Dynamic Visual Servoing"
 date:   2019-05-01 22:21:59 +00:00
-highlight: true
+# highlight: true
 image: /images/006_DM_FogServo19.jpg
 animate: /videos/006_DM_FogServo19.mp4
 categories: DM
 author: "Nan Tian"
-venue: "Graphics Interfaces"
-authors: "Stan Melax, <strong>Leonid Keselman</strong>, Sterling Orsten"
-subtitle: "Dynamics based 3D skeletal hand tracking"
-arxiv: https://arxiv.org/abs/1705.07640
-code: https://github.com/IntelRealSense/hand_tracking_samples
+venue: "ICRA 2019"
+authors: "Nan Tian, Jinfa Chen, Mas Ma, Robert Zhang, Bill Huang, Ken Goldberg and Somayeh Sojoudi"
+arxiv: https://arxiv.org/pdf/1809.06716
+# code: https://github.com/IntelRealSense/hand_tracking_samples
+video: 
 ---
 
 Using a physics engine (e.g. a dynamics solver) to track 3D articulated objects in real-time. 
